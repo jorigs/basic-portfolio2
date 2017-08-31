@@ -278,6 +278,43 @@ input[type=submit]:hover {
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 980px){
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	text-align:center;
+	margin:0;
+	padding: 0;
+}
+
+#main-container {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-container {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sidebar {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+}
+
+
 @media screen and (max-width: 768px){
 
 #logo {
@@ -294,13 +331,16 @@ nav {
 
 #main-container {
 	width: 100%;
-	max-width: 768px;
+	max-width: 760px;
 	margin: 0 auto;
-	clear: both;
+	text-align: center;
 }
 
 .main-container {
-	margin-bottom: 0px;
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .sidebar {
@@ -310,13 +350,43 @@ nav {
 	text-align: center;
 }
 
-
-
-
-
 }
 
+@media screen and (max-width: 640px){
+#logo {
+	width: 100%;
+	text-align: center;
+}
 
+nav {
+	width: 100%;
+	text-align:center;
+	margin:0;
+	padding: 0;
+}
+
+#main-container {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-container {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sidebar {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+}
 
 
 
