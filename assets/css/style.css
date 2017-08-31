@@ -311,6 +311,10 @@ nav {
 	margin: 0 auto;
 	text-align: center;
 }
+.work {
+	width: 100%;
+}
+
 
 }
 
@@ -349,10 +353,21 @@ nav {
 	margin: 0 auto;
 	text-align: center;
 }
+.work {
+	width: 100%;
+}
+
 
 }
 
 @media screen and (max-width: 640px){
+
+#masthead {
+	position: static;
+	margin:0;
+}
+
+
 #logo {
 	width: 100%;
 	text-align: center;
@@ -370,12 +385,13 @@ nav {
 	max-width: 760px;
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 0;
 }
 
 .main-container {
 	width: 100%;
 	max-width: 760px;
-	margin: 0 auto;
+	margin: 0;
 	text-align: center;
 }
 
@@ -384,6 +400,10 @@ nav {
 	max-width: 760px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.work {
+	width: 100%;
 }
 
 }
